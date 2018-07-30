@@ -14,8 +14,8 @@ import utn.frsf.ofa.cursojava.app.rrhh.Empleado;
  */
 public interface EmpleadoDao {
     public void crear(Empleado e);     
-    /*public void actualizar(Empleado e);     
-    public void eliminar(Empleado e);     
+    public void actualizar(Empleado e);     
+    //public void eliminar(Empleado e);     
     public Empleado buscarPorId(Integer id);        
-    public List<Empleado> buscarTodos();*/
+    //public List<Empleado> buscarTodos();
 }
