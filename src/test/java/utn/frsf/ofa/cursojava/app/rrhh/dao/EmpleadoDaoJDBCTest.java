@@ -9,6 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import utn.frsf.ofa.cursojava.app.rrhh.Contratados;
 import utn.frsf.ofa.cursojava.app.rrhh.Efectivo;
 import utn.frsf.ofa.cursojava.app.rrhh.Empleado;
 
@@ -57,5 +58,25 @@ public class EmpleadoDaoJDBCTest {
        Empleado empleado2 =  empleadoDaoJdbc.buscarPorId(1);
        assertEquals(empleado.getNombre(), empleado2.getNombre());*/
    }
+    /*@Test
+    public void testCrearCon() {
+       System.out.println("crear1 Contratado");
+       //empleadoDaoJdbc = new EmpleadoDaoJdbc();
+       EmpleadoDaoJdbc = new EmpleadoDaoJDBC();
+       //creo objeto empleado para llamar al metodo crear
+       Contratados empleado = new Contratados();
+       System.out.println("creo objeto Contratados");
+       java.util.Date fechaActual = new java.util.Date();       
+       empleado.setId(1);//cualquiera total grava el que sigue
+       empleado.setNombre("Juan" );
+       empleado.setCorreoElectronico("Juan@hotmail.com");
+       empleado.setCuil("21257131123");
+       empleado.setFechaIngreso(fechaActual);
+       empleado.setHorasTrabajadas(40);
+       empleado.setMonPorHor(250);
+       System.out.println(empleado.getNombre() + "Crear2_contratado:");        
+       //empleadoDaoJdbc.crear(empleado);
+       EmpleadoDaoJdbc.crear(empleado);
+   }*/
     
 }

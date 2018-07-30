@@ -50,7 +50,7 @@ public abstract class Empleado {
     public void setCuil(String cuil) {
         this.cuil = cuil;
     }
-
+    
     public Date getFechaIngreso() {
         return fechaIngreso;
     }
